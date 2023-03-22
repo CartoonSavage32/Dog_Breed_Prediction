@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import cv2
 import tensorflow as tf
-from tensorflow.keras.models import load_model
+from tensorflow.python.keras.models import load_model
 
 # Clearing the Keras session
 tf.keras.backend.clear_session()
